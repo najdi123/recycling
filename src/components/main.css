@@ -1,0 +1,74 @@
+.main-wrapper {
+    text-align: center;
+}
+.one {
+    z-index: 200;
+    padding-top: 600px;
+
+}
+
+.welcome {
+    color: orangered;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.welcome-text {
+    padding: 10px;
+}
+.three {
+    display: block;
+}
+.img {
+    padding: 10px;
+    margin: 10px;
+}
+
+.seperator {
+    margin: 40px;
+}
+.align {
+    margin:  10px 0 10px 0;
+    height: 285px;
+    width: 285px;
+    display: block;
+}
+.four {
+    text-align: center;
+    margin-left: 80px!important;
+    /*right: 10%!important;*/
+}
+
+.contact {
+    text-align: center;
+}
+.desc3 {
+    color: black;
+    /*background-color: orangered;*/
+    display:inline-block;
+    padding: 5px 10px 5px 10px;
+
+}
+.desc4 {
+    margin-top: 80px;
+    color: black;
+    /*background-color: blue;*/
+    display:inline-block;
+    padding: 5px 10px 5px 10px;
+
+    font-size: 45px;
+}
+.desc5 {
+    margin-top: 80px;
+    color: black;
+    /*background-color: blue;*/
+    display:inline-block;
+    padding: 5px 10px 5px 10px;
+
+    font-size: 25px;
+}
+.did {
+    color: orangered;
+    text-align: center;
+    margin-top: 60px;
+}
