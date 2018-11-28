@@ -14,7 +14,7 @@ class HomeGallery extends Component {
         return (
             <div>
                 <div className="row">
-                    <div className="col-sm-12 col-md-3 ">
+                    <div className="col-sm-12 col-md-3 hgallery">
                         <img className="align" src={pic1} alt=""/>
                     </div>
                     <div className="col-sm-12 col-md-3 ">

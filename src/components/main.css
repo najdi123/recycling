@@ -18,6 +18,7 @@
 }
 .three {
     display: block;
+    text-align: center;
 }
 .img {
     padding: 10px;
@@ -27,8 +28,13 @@
 .seperator {
     margin: 40px;
 }
+.hgallery {
+    align-items: center;
+    text-align: center;
+}
 .align {
-    margin:  10px 0 10px 0;
+
+    margin:  10px 10px 10px 10px;
     height: 285px;
     width: 285px;
     display: block;
@@ -71,4 +77,7 @@
     color: orangered;
     text-align: center;
     margin-top: 60px;
+}
+.about {
+    text-align: center;
 }
