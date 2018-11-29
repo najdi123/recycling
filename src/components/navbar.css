@@ -46,11 +46,13 @@ a.nav-link {
 .navbar-toggler-icon {
     font: 35px "one";
     color: white;
+    padding-right: 10px!important;
 
 }
 .navbar-toggler {
     background-color: #282c34!important;
     opacity: .9;
+    padding-right: 10px!important;
 }
 .navbar-collapse {
     background-color: #282c34;

@@ -125,6 +125,11 @@
     /*color: orangered;*/
     padding: 5px!important;
 }
+.contactForm {
+    width: auto;
+    margin: auto;
+    
+}
 
 .footerT {
     color: white;
