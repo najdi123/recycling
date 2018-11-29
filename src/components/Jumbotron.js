@@ -22,7 +22,7 @@ class Sidebar extends Component {
                         0912-1160743
                     </h2>
                     <br/>
-                    <h2 className="desc2">
+                    <h2 className="desc2 bottomM">
                         0912-5256158
                     </h2>
 

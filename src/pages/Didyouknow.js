@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 // import Footer from '../components/Footer.jsx';
 import Navbar from '../components/Navbar';
-import Sidebar from "../components/Sidebar";
 import '../components/main.css';
 import FooterPage from "../components/Footer";
-// import Jumbotron from '../components/Jumbotron.jsx';
-// import Gallery from '../components/Gallery'
 
 
 
@@ -16,7 +13,9 @@ class Home extends Component {
             <div>
 
                 <Navbar />
+
                 <div className="three container">
+
                     <h2 className="did">
                         آیا میدانید؟
                     </h2>
@@ -33,7 +32,7 @@ class Home extends Component {
                         بازیافت کاغذ 64% انرژی کمتری از تولید توسط چوب تازه نیاز دارد.
                     </h5>
 
-                    <h5 className="did2">
+                    <h5 className="did3">
                         کاهش زباله، یک تصمیم اقتصادی هوشمندانه است
                     </h5>
                     {/*<h5 className="seperator">*/}

@@ -40,7 +40,7 @@ a.nav-link {
 .navbar {
     position: relative;
     box-shadow: none !important;
-    top: 50px;
+    /*top: 50px;*/
 
 }
 .navbar-toggler-icon {
