@@ -19,7 +19,7 @@ class Navbar extends Component {
 
 
                     <button className="navbar-toggler navbar-toggler-right ml-auto" type="button" data-toggle="collapse" data-target="#mobile-nav">
-                        <span className="navbar-toggler-icon"><i className="fas fa-bars fa-3x"></i></span>
+                        <span className="navbar-toggler-icon"><strong>منو</strong></span>
                     </button>
 
                     {/*<div className="navbar-brand jumbotron" href="#">*/}

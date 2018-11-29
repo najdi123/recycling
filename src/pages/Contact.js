@@ -4,6 +4,7 @@ import Jumbotron from '../components/Jumbotron';
 import MainFarsi from "../components/MainFarsi";
 import Navbar from "../components/Navbar";
 import Contact from "../components/Contact";
+import FooterPage from "../components/Footer";
 // import Jumbotron from '../components/Jumbotron.jsx';
 // import Gallery from '../components/Gallery'
 
@@ -16,6 +17,7 @@ class Home extends Component {
             <div>
                 <Navbar/>
                 <Contact/>
+                <FooterPage/>
             </div>
         );
     }

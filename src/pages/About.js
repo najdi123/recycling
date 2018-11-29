@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import CarouselPage from "../components/Dashboard";
 import '../components/main.css'
+import FooterPage from "../components/Footer";
 // import Jumbotron from '../components/Jumbotron.jsx';
 // import Gallery from '../components/Gallery'
 
@@ -12,7 +13,7 @@ import '../components/main.css'
 class Home extends Component {
     render() {
         return (
-            <div className="about">
+            <div className="about container">
 
                 {/*<SideNavPage/>*/}
                 {/*<NavbarPage/>*/}
@@ -27,6 +28,7 @@ class Home extends Component {
                     بنگاه ضایعاتی ابراهیمی با بیش از بیست سال تجربه آماده به خدمت رسانی می باشد
                 </h4>
 
+                <FooterPage/>
             </div>
         );
     }

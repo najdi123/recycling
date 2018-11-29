@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './main.css';
 import HomeGallery from "./HomeGallery";
-
-import cardboard from '../images/cardboard-570x250.jpg';
-import paper from '../images/paper-570x250.jpg';
-import plastic from '../images/plastic-570x250.jpg';
+//
+// import cardboard from '../images/cardboard-570x250.jpg';
+// import paper from '../images/paper-570x250.jpg';
+// import plastic from '../images/plastic-570x250.jpg';
 import logo from '../images/logo-small-EDS.jpg'
 
 
@@ -41,23 +41,23 @@ class Main extends Component {
                         {/*______________________________________*/}
                     {/*</h5>*/}
                 {/*</div>*/}
-                <div className="four row">
-                    <div className="col-sm-12 col-md-2">
-                        <img src={logo} alt=""/>
-                    </div>
-                    <div className="col-sm-12 col-md-2">
-                        <img src={logo} alt=""/>
-                    </div>
-                    <div className="col-sm-12 col-md-2">
-                        <img src={logo} alt=""/>
-                    </div>
-                    <div className="col-sm-12 col-md-2">
-                        <img src={logo} alt=""/>
-                    </div>
-                    <div className="col-sm-12 col-md-2">
-                        <img src={logo} alt=""/>
-                    </div>
-                </div>
+                {/*<div className="four row">*/}
+                    {/*<div className="col-sm-12 col-md-2">*/}
+                        {/*<img src={logo} alt=""/>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-12 col-md-2">*/}
+                        {/*<img src={logo} alt=""/>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-12 col-md-2">*/}
+                        {/*<img src={logo} alt=""/>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-12 col-md-2">*/}
+                        {/*<img src={logo} alt=""/>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-12 col-md-2">*/}
+                        {/*<img src={logo} alt=""/>*/}
+                    {/*</div>*/}
+                {/*</div>*/}
 
 
             </div>

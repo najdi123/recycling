@@ -12,7 +12,7 @@ class Contact extends Component {
                     <br/>
                     <h1 className="desc4">
 
-                        <span>:تلفن تماس </span>
+                        <span className="contactHeader">:تلفن تماس </span>
                         <br/>
                         09125256158
                         <br/>

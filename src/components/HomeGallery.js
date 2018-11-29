@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import './main.css';
 
-import pic1 from '../images/102375_1c004.jpg';
-import pic2 from '../images/Corrugated.jpg';
-import pic3 from '../images/image.jpg';
+import pic1 from '../images/box1.jpeg';
+import pic2 from '../images/paper-1024x576.jpg';
+import pic3 from '../images/box2.jpeg';
 // import pic4 from '../images/4-small.jpg';
-import pic5 from '../images/5-small.jpg';
-import pic6 from '../images/6-small.jpg';
+import pic5 from '../images/SOP3-768x1024.jpg';
+
 
 
 class HomeGallery extends Component {

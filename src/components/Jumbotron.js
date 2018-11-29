@@ -12,7 +12,7 @@ class Sidebar extends Component {
                     <br/>
                     <h4 className="desc">خریدار ضایعات کارتن و کاغذ باطله در محدوده تهران و کرج</h4>
                     <br/>
-                    <h4 className="desc">
+                    <h4 className="desc bottomM">
                         به صورت تحویلی در انبار ما و خرید در محل شما
                     </h4>
 

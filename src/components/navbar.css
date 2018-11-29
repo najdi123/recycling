@@ -1,3 +1,17 @@
+@font-face {
+    font-family: one;
+    src: url(../fonts/irsansb.ttf);
+
+}
+
+@font-face {
+    font-family: two;
+    src: url(../fonts/irsans.ttf);
+
+}
+
+
+
 .jumbo-wrapper {
     /*background-color: #61dafb;*/
     background-image:  url('../images/header.jpg') ;
@@ -19,19 +33,25 @@
 a.nav-link {
     color: white !important;
 
-    font-size: 20px;
+    font: 20px "two";
     margin: 0 25px 0 25px;
 
 }
-/*@media (max-width: 518px) {*/
-    /*a.nav-link {*/
-        /*color: white !important;*/
+.navbar {
+    position: relative;
+    box-shadow: none !important;
+    top: 50px;
 
-        /*font-size: 10px;*/
-        /*margin: 0 15px 0 15px;*/
+}
+.navbar-toggler-icon {
+    font: 35px "one";
+    color: white;
 
-    /*}*/
-/*}*/
+}
+.navbar-toggler {
+    background-color: #282c34!important;
+    opacity: .9;
+}
 .navbar-collapse {
     background-color: #282c34;
     /*opacity: 0.7;*/
@@ -47,38 +67,47 @@ a.nav-link {
     margin: 0 25px 0 25px;
 }
 .nav-item:hover {
-    color: aqua;
+    background-color: deeppink;
 
+}
+
+.welcome {
+    font: 25px "one";
+    color: orangered;
+    padding: 10px;
+    margin-top: 30px;
 }
 .name {
     color: white;
     background-color: orange;
     display:inline-block;
-    font-size: 30px;
+    font: 27px "one";
     padding: 10px;
+    margin-bottom: 50px;
 
 }
 .desc {
+    font: 20px "two";
     color: white;
     background-color: orangered;
     display:inline-block;
     padding: 5px 10px 5px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.bottomM {
+    margin-bottom: 40px;
 }
 
 .desc2 {
+
     color: white;
     background-color: blue;
     display:inline-block;
     padding: 5px 10px 5px 10px;
 
-    font-size: 25px;
+    font: 25px "one";
 }
 
 
-.navbar {
-    position: relative;
-    box-shadow: none !important;
-    top: 50px;
 
-}
